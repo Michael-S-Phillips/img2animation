@@ -2,16 +2,16 @@
 
 The Image Animation App is a Python script that allows you to create animations from a sequence of images. You can load multiple image files, preview the animation, and save it in either GIF or MP4 format.
 
-## Installation
+## 1. Installation
 
-1. **Clone the Repository:**
+**Clone the Repository:**
 
 ```bash
 git clone https://github.com/your-username/image-animation-app.git
 cd image-animation-app
 ```
 
-## 2. Create and Activate the Conda Environment:
+**Create and Activate the Conda Environment:**
 To ensure you have the required dependencies, you can create a Conda environment based on the provided environment.yaml file:
 ```bash
 conda env create -f environment.yaml
@@ -26,7 +26,7 @@ chmod +x create_environment.sh
 ```
 This will perform the above conda commands for you and additionally install imageio-ffmpeg
 
-## Usage
+## 2. Usage
 To use the Image Animation App, follow these steps:
 
 Run the script img2ani.py with Python:
